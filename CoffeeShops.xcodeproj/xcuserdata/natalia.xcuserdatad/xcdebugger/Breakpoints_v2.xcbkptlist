@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "79F68061-0BD6-4841-84ED-77A9DF53BA92"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "33C42DD0-7DD9-4620-A0CC-2915840E5CF6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoffeeShops/AuthorizationModule/View/AuthorizationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "showAlertError(message:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "33C42DD0-7DD9-4620-A0CC-2915840E5CF6 - a66847c8dbd0b833"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoffeeShops.AuthorizationViewController.authorizationAction() -&gt; ()"
+                  moduleName = "CoffeeShops"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/CoffeeShops/CoffeeShops/AuthorizationModule/View/AuthorizationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "460">
+               </Location>
+               <Location
+                  uuid = "33C42DD0-7DD9-4620-A0CC-2915840E5CF6 - 69b8f9829cc56066"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoffeeShops.AuthorizationViewController.showAlertError(message: Swift.String) -&gt; ()"
+                  moduleName = "CoffeeShops"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/CoffeeShops/CoffeeShops/AuthorizationModule/View/AuthorizationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "33C42DD0-7DD9-4620-A0CC-2915840E5CF6 - 69b8f9829cc56066"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoffeeShops.AuthorizationViewController.showAlertError(message: Swift.String) -&gt; ()"
+                  moduleName = "CoffeeShops"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/CoffeeShops/CoffeeShops/AuthorizationModule/View/AuthorizationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "300">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0460D249-0CBA-497E-8783-9B0C9E97FAFA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoffeeShops/NetworkService/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "authorization(login:password:type:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88B356B7-A7FC-46F7-84B0-665DB65FCF98"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoffeeShops/NearestShopsModule/Presenter/NearestShopsPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

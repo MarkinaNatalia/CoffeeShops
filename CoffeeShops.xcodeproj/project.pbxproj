@@ -1,0 +1,1169 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E16C39492B73CF9A007B9E07 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39482B73CF99007B9E07 /* NetworkService.swift */; };
+		E16C394B2B73CFBB007B9E07 /* RegistrationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C394A2B73CFBB007B9E07 /* RegistrationPresenter.swift */; };
+		E16C394D2B73CFC7007B9E07 /* RegistrationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C394C2B73CFC7007B9E07 /* RegistrationRouter.swift */; };
+		E16C394F2B73CFD1007B9E07 /* RegistrationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C394E2B73CFD1007B9E07 /* RegistrationInteractor.swift */; };
+		E16C39512B73D15D007B9E07 /* RegistrationModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39502B73D15D007B9E07 /* RegistrationModuleBuilder.swift */; };
+		E16C39552B73D46B007B9E07 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39542B73D46B007B9E07 /* LocationModel.swift */; };
+		E16C39572B73D4B7007B9E07 /* PointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39562B73D4B7007B9E07 /* PointModel.swift */; };
+		E16C39592B73EC4B007B9E07 /* CoffeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39582B73EC4B007B9E07 /* CoffeeModel.swift */; };
+		E16C395C2B750963007B9E07 /* AuthorizationTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C395B2B750962007B9E07 /* AuthorizationTitleLabel.swift */; };
+		E16C395E2B750C52007B9E07 /* InputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C395D2B750C52007B9E07 /* InputField.swift */; };
+		E16C39602B763F2D007B9E07 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C395F2B763F2D007B9E07 /* CustomButton.swift */; };
+		E16C39622B764E18007B9E07 /* AuthorizationModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39612B764E18007B9E07 /* AuthorizationModuleBuilder.swift */; };
+		E16C39642B764E6B007B9E07 /* AuthorizationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39632B764E6B007B9E07 /* AuthorizationInteractor.swift */; };
+		E16C39662B764E78007B9E07 /* AuthorizationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39652B764E78007B9E07 /* AuthorizationRouter.swift */; };
+		E16C39682B764E8A007B9E07 /* AuthorizationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39672B764E8A007B9E07 /* AuthorizationPresenter.swift */; };
+		E16C396A2B764E98007B9E07 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39692B764E98007B9E07 /* AuthorizationViewController.swift */; };
+		E16C396C2B76560E007B9E07 /* AuthorizationBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C396B2B76560E007B9E07 /* AuthorizationBody.swift */; };
+		E16C396E2B767E98007B9E07 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C396D2B767E98007B9E07 /* UserModel.swift */; };
+		E16C39702B767F05007B9E07 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C396F2B767F05007B9E07 /* UserDefaults.swift */; };
+		E16C39762B78F054007B9E07 /* NearestShopsModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39752B78F054007B9E07 /* NearestShopsModuleBuilder.swift */; };
+		E16C39782B78F060007B9E07 /* NearestShopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39772B78F060007B9E07 /* NearestShopsViewController.swift */; };
+		E16C397A2B78F06B007B9E07 /* NearestShopsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39792B78F06B007B9E07 /* NearestShopsPresenter.swift */; };
+		E16C397C2B78F077007B9E07 /* NearestShopsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C397B2B78F077007B9E07 /* NearestShopsInteractor.swift */; };
+		E16C397E2B78F082007B9E07 /* NearestShopsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C397D2B78F082007B9E07 /* NearestShopsRouter.swift */; };
+		E16C39802B78F093007B9E07 /* PaymentModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C397F2B78F093007B9E07 /* PaymentModuleBuilder.swift */; };
+		E16C39822B78F09E007B9E07 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39812B78F09E007B9E07 /* PaymentViewController.swift */; };
+		E16C39842B78F0A8007B9E07 /* PaymentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39832B78F0A8007B9E07 /* PaymentPresenter.swift */; };
+		E16C39862B78F0B2007B9E07 /* PaymentInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39852B78F0B2007B9E07 /* PaymentInteractor.swift */; };
+		E16C39882B78F0BA007B9E07 /* PaymentRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39872B78F0BA007B9E07 /* PaymentRouter.swift */; };
+		E16C398A2B78F0D1007B9E07 /* MenuModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39892B78F0D1007B9E07 /* MenuModuleBuilder.swift */; };
+		E16C398C2B78F0E0007B9E07 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C398B2B78F0E0007B9E07 /* MenuViewController.swift */; };
+		E16C398E2B78F0EA007B9E07 /* MenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C398D2B78F0EA007B9E07 /* MenuPresenter.swift */; };
+		E16C39902B78F0F5007B9E07 /* MenuInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C398F2B78F0F5007B9E07 /* MenuInteractor.swift */; };
+		E16C39922B78F0FD007B9E07 /* MenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39912B78F0FD007B9E07 /* MenuRouter.swift */; };
+		E16C39942B78F10A007B9E07 /* MapModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39932B78F10A007B9E07 /* MapModuleBuilder.swift */; };
+		E16C39962B78F11C007B9E07 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39952B78F11C007B9E07 /* MapViewController.swift */; };
+		E16C39982B78F125007B9E07 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39972B78F125007B9E07 /* MapPresenter.swift */; };
+		E16C399A2B78F130007B9E07 /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39992B78F130007B9E07 /* MapInteractor.swift */; };
+		E16C399C2B78F138007B9E07 /* MapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C399B2B78F138007B9E07 /* MapRouter.swift */; };
+		E16C39A02B7A3F45007B9E07 /* YMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C399F2B7A3F45007B9E07 /* YMapView.swift */; };
+		E16C39A22B7B7FBE007B9E07 /* CoffeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39A12B7B7FBE007B9E07 /* CoffeeCell.swift */; };
+		E16C39A42B7BAD02007B9E07 /* OrderItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39A32B7BAD02007B9E07 /* OrderItemModel.swift */; };
+		E16C39A62B7BC547007B9E07 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39A52B7BC547007B9E07 /* TableViewCell.swift */; };
+		E16C39A82B7CE9F6007B9E07 /* ClickableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39A72B7CE9F6007B9E07 /* ClickableLabel.swift */; };
+		E16C39AA2B7CF742007B9E07 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39A92B7CF742007B9E07 /* UIViewController+Extension.swift */; };
+		E16C39D52B8277D7007B9E07 /* CoffeeShopsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39D42B8277D7007B9E07 /* CoffeeShopsTests.swift */; };
+		E16C39E22B8A2BA5007B9E07 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E16C39E12B8A2BA5007B9E07 /* Alamofire */; };
+		E16C39E52B8A2CAF007B9E07 /* YandexMapsMobile in Frameworks */ = {isa = PBXBuildFile; productRef = E16C39E42B8A2CAF007B9E07 /* YandexMapsMobile */; };
+		E16C39E72B8A2D06007B9E07 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E16C39E62B8A2D06007B9E07 /* SnapKit */; };
+		E16C39EA2B8A2E2B007B9E07 /* AuthorizationViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39E92B8A2E2B007B9E07 /* AuthorizationViewInput.swift */; };
+		E16C39EC2B8A2E56007B9E07 /* AuthorizationViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39EB2B8A2E56007B9E07 /* AuthorizationViewOutput.swift */; };
+		E16C39EE2B8A2E87007B9E07 /* AuthorizationInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39ED2B8A2E87007B9E07 /* AuthorizationInteractorInput.swift */; };
+		E16C39F02B8A2E9E007B9E07 /* AuthorizationInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39EF2B8A2E9E007B9E07 /* AuthorizationInteractorOutput.swift */; };
+		E16C39F22B8A2ED8007B9E07 /* AuthorizationRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39F12B8A2ED8007B9E07 /* AuthorizationRouterInput.swift */; };
+		E16C39F42B8A2EF8007B9E07 /* RegistrationViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39F32B8A2EF8007B9E07 /* RegistrationViewInput.swift */; };
+		E16C39F62B8A2F2A007B9E07 /* RegistrationViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39F52B8A2F2A007B9E07 /* RegistrationViewOutput.swift */; };
+		E16C39F82B8A2F4C007B9E07 /* RegistrationInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39F72B8A2F4C007B9E07 /* RegistrationInteractorInput.swift */; };
+		E16C39FA2B8A2F5C007B9E07 /* RegistrationInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39F92B8A2F5C007B9E07 /* RegistrationInteractorOutput.swift */; };
+		E16C39FC2B8A2F92007B9E07 /* RegistrationRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39FB2B8A2F92007B9E07 /* RegistrationRouterInput.swift */; };
+		E16C39FE2B8A2FD0007B9E07 /* MapRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39FD2B8A2FD0007B9E07 /* MapRouterInput.swift */; };
+		E16C3A002B8A2FE3007B9E07 /* MapViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C39FF2B8A2FE3007B9E07 /* MapViewInput.swift */; };
+		E16C3A022B8A2FF4007B9E07 /* MapViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A012B8A2FF4007B9E07 /* MapViewOutput.swift */; };
+		E16C3A042B8A300A007B9E07 /* MapInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A032B8A300A007B9E07 /* MapInteractorOutput.swift */; };
+		E16C3A062B8A3019007B9E07 /* MapInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A052B8A3019007B9E07 /* MapInteractorInput.swift */; };
+		E16C3A082B8A3173007B9E07 /* MenuRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A072B8A3173007B9E07 /* MenuRouterInput.swift */; };
+		E16C3A0A2B8A318B007B9E07 /* MenuInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A092B8A318B007B9E07 /* MenuInteractorInput.swift */; };
+		E16C3A0C2B8A319B007B9E07 /* MenuInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A0B2B8A319B007B9E07 /* MenuInteractorOutput.swift */; };
+		E16C3A0E2B8A31B0007B9E07 /* MenuViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A0D2B8A31B0007B9E07 /* MenuViewInput.swift */; };
+		E16C3A102B8A31CA007B9E07 /* MenuViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A0F2B8A31CA007B9E07 /* MenuViewOutput.swift */; };
+		E16C3A122B8A3421007B9E07 /* NearestShopsRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A112B8A3421007B9E07 /* NearestShopsRouterInput.swift */; };
+		E16C3A142B8A3440007B9E07 /* NearestShopsViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A132B8A3440007B9E07 /* NearestShopsViewInput.swift */; };
+		E16C3A162B8A344F007B9E07 /* NearestShopsViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A152B8A344F007B9E07 /* NearestShopsViewOutput.swift */; };
+		E16C3A182B8A348F007B9E07 /* NearestShopsInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A172B8A348F007B9E07 /* NearestShopsInteractorInput.swift */; };
+		E16C3A1A2B8A349C007B9E07 /* NearestShopsInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A192B8A349C007B9E07 /* NearestShopsInteractorOutput.swift */; };
+		E16C3A1C2B8A34E8007B9E07 /* PaymentRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A1B2B8A34E8007B9E07 /* PaymentRouterInput.swift */; };
+		E16C3A1E2B8A3506007B9E07 /* PaymentViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A1D2B8A3506007B9E07 /* PaymentViewInput.swift */; };
+		E16C3A202B8A3519007B9E07 /* PaymentViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A1F2B8A3519007B9E07 /* PaymentViewOutput.swift */; };
+		E16C3A222B8A3531007B9E07 /* PaymentInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A212B8A3531007B9E07 /* PaymentInteractorInput.swift */; };
+		E16C3A242B8A353F007B9E07 /* PaymentInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A232B8A353F007B9E07 /* PaymentInteractorOutput.swift */; };
+		E16C3A262B8A6966007B9E07 /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A252B8A6966007B9E07 /* NetworkServiceProtocol.swift */; };
+		E16C3A282B8A6979007B9E07 /* AuthorizationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A272B8A6979007B9E07 /* AuthorizationType.swift */; };
+		E16C3A2A2B8B730F007B9E07 /* NearestShopsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A292B8B730F007B9E07 /* NearestShopsPresenterTests.swift */; };
+		E16C3A2C2B8B76CD007B9E07 /* MockNearestShopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A2B2B8B76CD007B9E07 /* MockNearestShopsViewController.swift */; };
+		E16C3A2E2B8B7759007B9E07 /* MockNearestShopsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A2D2B8B7759007B9E07 /* MockNearestShopsRouter.swift */; };
+		E16C3A342B8B796B007B9E07 /* MenuPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A332B8B796B007B9E07 /* MenuPresenterTests.swift */; };
+		E16C3A362B8B7A10007B9E07 /* MockMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A352B8B7A10007B9E07 /* MockMenuViewController.swift */; };
+		E16C3A382B8B7A1D007B9E07 /* MockMenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A372B8B7A1D007B9E07 /* MockMenuRouter.swift */; };
+		E16C3A3A2B8CE982007B9E07 /* MockPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A392B8CE982007B9E07 /* MockPaymentViewController.swift */; };
+		E16C3A3F2B8CEA16007B9E07 /* PaymentPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A3E2B8CEA16007B9E07 /* PaymentPresenterTests.swift */; };
+		E16C3A432B8E53DA007B9E07 /* NearestShopsInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C3A422B8E53DA007B9E07 /* NearestShopsInteractorTests.swift */; };
+		E1F075032B73CC0200481512 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F075022B73CC0200481512 /* AppDelegate.swift */; };
+		E1F075072B73CC0200481512 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F075062B73CC0200481512 /* RegistrationViewController.swift */; };
+		E1F0750C2B73CC0400481512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1F0750B2B73CC0400481512 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E16C39D62B8277D7007B9E07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1F074F72B73CC0200481512 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1F074FE2B73CC0200481512;
+			remoteInfo = CoffeeShops;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E16C39482B73CF99007B9E07 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		E16C394A2B73CFBB007B9E07 /* RegistrationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPresenter.swift; sourceTree = "<group>"; };
+		E16C394C2B73CFC7007B9E07 /* RegistrationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationRouter.swift; sourceTree = "<group>"; };
+		E16C394E2B73CFD1007B9E07 /* RegistrationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationInteractor.swift; sourceTree = "<group>"; };
+		E16C39502B73D15D007B9E07 /* RegistrationModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationModuleBuilder.swift; sourceTree = "<group>"; };
+		E16C39542B73D46B007B9E07 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		E16C39562B73D4B7007B9E07 /* PointModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointModel.swift; sourceTree = "<group>"; };
+		E16C39582B73EC4B007B9E07 /* CoffeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeModel.swift; sourceTree = "<group>"; };
+		E16C395B2B750962007B9E07 /* AuthorizationTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationTitleLabel.swift; sourceTree = "<group>"; };
+		E16C395D2B750C52007B9E07 /* InputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputField.swift; sourceTree = "<group>"; };
+		E16C395F2B763F2D007B9E07 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		E16C39612B764E18007B9E07 /* AuthorizationModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationModuleBuilder.swift; sourceTree = "<group>"; };
+		E16C39632B764E6B007B9E07 /* AuthorizationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationInteractor.swift; sourceTree = "<group>"; };
+		E16C39652B764E78007B9E07 /* AuthorizationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationRouter.swift; sourceTree = "<group>"; };
+		E16C39672B764E8A007B9E07 /* AuthorizationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationPresenter.swift; sourceTree = "<group>"; };
+		E16C39692B764E98007B9E07 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
+		E16C396B2B76560E007B9E07 /* AuthorizationBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationBody.swift; sourceTree = "<group>"; };
+		E16C396D2B767E98007B9E07 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		E16C396F2B767F05007B9E07 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		E16C39752B78F054007B9E07 /* NearestShopsModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestShopsModuleBuilder.swift; sourceTree = "<group>"; };
+		E16C39772B78F060007B9E07 /* NearestShopsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestShopsViewController.swift; sourceTree = "<group>"; };
+		E16C39792B78F06B007B9E07 /* NearestShopsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestShopsPresenter.swift; sourceTree = "<group>"; };
+		E16C397B2B78F077007B9E07 /* NearestShopsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestShopsInteractor.swift; sourceTree = "<group>"; };
+		E16C397D2B78F082007B9E07 /* NearestShopsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestShopsRouter.swift; sourceTree = "<group>"; };
+		E16C397F2B78F093007B9E07 /* PaymentModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentModuleBuilder.swift; sourceTree = "<group>"; };
+		E16C39812B78F09E007B9E07 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		E16C39832B78F0A8007B9E07 /* PaymentPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentPresenter.swift; sourceTree = "<group>"; };
+		E16C39852B78F0B2007B9E07 /* PaymentInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInteractor.swift; sourceTree = "<group>"; };
+		E16C39872B78F0BA007B9E07 /* PaymentRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentRouter.swift; sourceTree = "<group>"; };
+		E16C39892B78F0D1007B9E07 /* MenuModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModuleBuilder.swift; sourceTree = "<group>"; };
+		E16C398B2B78F0E0007B9E07 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		E16C398D2B78F0EA007B9E07 /* MenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPresenter.swift; sourceTree = "<group>"; };
+		E16C398F2B78F0F5007B9E07 /* MenuInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInteractor.swift; sourceTree = "<group>"; };
+		E16C39912B78F0FD007B9E07 /* MenuRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRouter.swift; sourceTree = "<group>"; };
+		E16C39932B78F10A007B9E07 /* MapModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModuleBuilder.swift; sourceTree = "<group>"; };
+		E16C39952B78F11C007B9E07 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		E16C39972B78F125007B9E07 /* MapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
+		E16C39992B78F130007B9E07 /* MapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteractor.swift; sourceTree = "<group>"; };
+		E16C399B2B78F138007B9E07 /* MapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouter.swift; sourceTree = "<group>"; };
+		E16C399F2B7A3F45007B9E07 /* YMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMapView.swift; sourceTree = "<group>"; };
+		E16C39A12B7B7FBE007B9E07 /* CoffeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeCell.swift; sourceTree = "<group>"; };
+		E16C39A32B7BAD02007B9E07 /* OrderItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItemModel.swift; sourceTree = "<group>"; };
+		E16C39A52B7BC547007B9E07 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E16C39A72B7CE9F6007B9E07 /* ClickableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickableLabel.swift; sourceTree = "<group>"; };
+		E16C39A92B7CF742007B9E07 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		E16C39D22B8277D7007B9E07 /* CoffeeShopsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeShopsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16C39D42B8277D7007B9E07 /* CoffeeShopsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeShopsTests.swift; sourceTree = "<group>"; };
+		E16C39E92B8A2E2B007B9E07 /* AuthorizationViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewInput.swift; sourceTree = "<group>"; };
+		E16C39EB2B8A2E56007B9E07 /* AuthorizationViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewOutput.swift; sourceTree = "<group>"; };
+		E16C39ED2B8A2E87007B9E07 /* AuthorizationInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationInteractorInput.swift; sourceTree = "<group>"; };
+		E16C39EF2B8A2E9E007B9E07 /* AuthorizationInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationInteractorOutput.swift; sourceTree = "<group>"; };
+		E16C39F12B8A2ED8007B9E07 /* AuthorizationRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationRouterInput.swift; sourceTree = "<group>"; };
+		E16C39F32B8A2EF8007B9E07 /* RegistrationViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewInput.swift; sourceTree = "<group>"; };
+		E16C39F52B8A2F2A007B9E07 /* RegistrationViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewOutput.swift; sourceTree = "<group>"; };
+		E16C39F72B8A2F4C007B9E07 /* RegistrationInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationInteractorInput.swift; sourceTree = "<group>"; };
+		E16C39F92B8A2F5C007B9E07 /* RegistrationInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationInteractorOutput.swift; sourceTree = "<group>"; };
+		E16C39FB2B8A2F92007B9E07 /* RegistrationRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationRouterInput.swift; sourceTree = "<group>"; };
+		E16C39FD2B8A2FD0007B9E07 /* MapRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouterInput.swift; sourceTree = "<group>"; };
+		E16C39FF2B8A2FE3007B9E07 /* MapViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewInput.swift; sourceTree = "<group>"; };
+		E16C3A012B8A2FF4007B9E07 /* MapViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewOutput.swift; sourceTree = "<group>"; };
+		E16C3A032B8A300A007B9E07 /* MapInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteractorOutput.swift; sourceTree = "<group>"; };
+		E16C3A052B8A3019007B9E07 /* MapInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteractorInput.swift; sourceTree = "<group>"; };
+		E16C3A072B8A3173007B9E07 /* MenuRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRouterInput.swift; sourceTree = "<group>"; };
+		E16C3A092B8A318B007B9E07 /* MenuInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInteractorInput.swift; sourceTree = "<group>"; };
+		E16C3A0B2B8A319B007B9E07 /* MenuInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInteractorOutput.swift; sourceTree = "<group>"; };
+		E16C3A0D2B8A31B0007B9E07 /* MenuViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewInput.swift; sourceTree = "<group>"; };
+		E16C3A0F2B8A31CA007B9E07 /* MenuViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewOutput.swift; sourceTree = "<group>"; };
+		E16C3A112B8A3421007B9E07 /* NearestShopsRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestShopsRouterInput.swift; sourceTree = "<group>"; };
+		E16C3A132B8A3440007B9E07 /* NearestShopsViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestShopsViewInput.swift; sourceTree = "<group>"; };
+		E16C3A152B8A344F007B9E07 /* NearestShopsViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestShopsViewOutput.swift; sourceTree = "<group>"; };
+		E16C3A172B8A348F007B9E07 /* NearestShopsInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestShopsInteractorInput.swift; sourceTree = "<group>"; };
+		E16C3A192B8A349C007B9E07 /* NearestShopsInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestShopsInteractorOutput.swift; sourceTree = "<group>"; };
+		E16C3A1B2B8A34E8007B9E07 /* PaymentRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentRouterInput.swift; sourceTree = "<group>"; };
+		E16C3A1D2B8A3506007B9E07 /* PaymentViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewInput.swift; sourceTree = "<group>"; };
+		E16C3A1F2B8A3519007B9E07 /* PaymentViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewOutput.swift; sourceTree = "<group>"; };
+		E16C3A212B8A3531007B9E07 /* PaymentInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInteractorInput.swift; sourceTree = "<group>"; };
+		E16C3A232B8A353F007B9E07 /* PaymentInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInteractorOutput.swift; sourceTree = "<group>"; };
+		E16C3A252B8A6966007B9E07 /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
+		E16C3A272B8A6979007B9E07 /* AuthorizationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationType.swift; sourceTree = "<group>"; };
+		E16C3A292B8B730F007B9E07 /* NearestShopsPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestShopsPresenterTests.swift; sourceTree = "<group>"; };
+		E16C3A2B2B8B76CD007B9E07 /* MockNearestShopsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNearestShopsViewController.swift; sourceTree = "<group>"; };
+		E16C3A2D2B8B7759007B9E07 /* MockNearestShopsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNearestShopsRouter.swift; sourceTree = "<group>"; };
+		E16C3A332B8B796B007B9E07 /* MenuPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPresenterTests.swift; sourceTree = "<group>"; };
+		E16C3A352B8B7A10007B9E07 /* MockMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMenuViewController.swift; sourceTree = "<group>"; };
+		E16C3A372B8B7A1D007B9E07 /* MockMenuRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMenuRouter.swift; sourceTree = "<group>"; };
+		E16C3A392B8CE982007B9E07 /* MockPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPaymentViewController.swift; sourceTree = "<group>"; };
+		E16C3A3E2B8CEA16007B9E07 /* PaymentPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentPresenterTests.swift; sourceTree = "<group>"; };
+		E16C3A422B8E53DA007B9E07 /* NearestShopsInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestShopsInteractorTests.swift; sourceTree = "<group>"; };
+		E1F074FF2B73CC0200481512 /* CoffeeShops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeShops.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1F075022B73CC0200481512 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1F075062B73CC0200481512 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		E1F0750B2B73CC0400481512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1F075102B73CC0400481512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E16C39CF2B8277D7007B9E07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1F074FC2B73CC0200481512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16C39E72B8A2D06007B9E07 /* SnapKit in Frameworks */,
+				E16C39E52B8A2CAF007B9E07 /* YandexMapsMobile in Frameworks */,
+				E16C39E22B8A2BA5007B9E07 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E16C39522B73D332007B9E07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E16C39A92B7CF742007B9E07 /* UIViewController+Extension.swift */,
+				E16C396F2B767F05007B9E07 /* UserDefaults.swift */,
+				E1F075022B73CC0200481512 /* AppDelegate.swift */,
+				E1F0750B2B73CC0400481512 /* Assets.xcassets */,
+				E1F075102B73CC0400481512 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E16C395A2B7508F2007B9E07 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E16C395B2B750962007B9E07 /* AuthorizationTitleLabel.swift */,
+				E16C395D2B750C52007B9E07 /* InputField.swift */,
+				E16C395F2B763F2D007B9E07 /* CustomButton.swift */,
+				E16C399F2B7A3F45007B9E07 /* YMapView.swift */,
+				E16C39A12B7B7FBE007B9E07 /* CoffeeCell.swift */,
+				E16C39A52B7BC547007B9E07 /* TableViewCell.swift */,
+				E16C39A72B7CE9F6007B9E07 /* ClickableLabel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E16C39AB2B7E7913007B9E07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E16C39AE2B80CFCC007B9E07 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E16C39652B764E78007B9E07 /* AuthorizationRouter.swift */,
+				E16C39F12B8A2ED8007B9E07 /* AuthorizationRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E16C39B02B80CFE4007B9E07 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E16C39672B764E8A007B9E07 /* AuthorizationPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E16C39B12B80CFF4007B9E07 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E16C39632B764E6B007B9E07 /* AuthorizationInteractor.swift */,
+				E16C39ED2B8A2E87007B9E07 /* AuthorizationInteractorInput.swift */,
+				E16C39EF2B8A2E9E007B9E07 /* AuthorizationInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E16C39B22B80CFFB007B9E07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E16C39692B764E98007B9E07 /* AuthorizationViewController.swift */,
+				E16C39E92B8A2E2B007B9E07 /* AuthorizationViewInput.swift */,
+				E16C39EB2B8A2E56007B9E07 /* AuthorizationViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E16C39B32B80D097007B9E07 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E16C399B2B78F138007B9E07 /* MapRouter.swift */,
+				E16C39FD2B8A2FD0007B9E07 /* MapRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E16C39B52B80D0B1007B9E07 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E16C39972B78F125007B9E07 /* MapPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E16C39B62B80D0BA007B9E07 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E16C39992B78F130007B9E07 /* MapInteractor.swift */,
+				E16C3A032B8A300A007B9E07 /* MapInteractorOutput.swift */,
+				E16C3A052B8A3019007B9E07 /* MapInteractorInput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E16C39B72B80D0C2007B9E07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E16C39952B78F11C007B9E07 /* MapViewController.swift */,
+				E16C39FF2B8A2FE3007B9E07 /* MapViewInput.swift */,
+				E16C3A012B8A2FF4007B9E07 /* MapViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E16C39B82B80D0EC007B9E07 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E16C39912B78F0FD007B9E07 /* MenuRouter.swift */,
+				E16C3A072B8A3173007B9E07 /* MenuRouterInput.swift */,
+				E16C3A372B8B7A1D007B9E07 /* MockMenuRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E16C39B92B80D0F2007B9E07 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E16C397D2B78F082007B9E07 /* NearestShopsRouter.swift */,
+				E16C3A112B8A3421007B9E07 /* NearestShopsRouterInput.swift */,
+				E16C3A2D2B8B7759007B9E07 /* MockNearestShopsRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E16C39BA2B80D0F6007B9E07 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E16C39872B78F0BA007B9E07 /* PaymentRouter.swift */,
+				E16C3A1B2B8A34E8007B9E07 /* PaymentRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E16C39BB2B80D0FB007B9E07 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E16C394C2B73CFC7007B9E07 /* RegistrationRouter.swift */,
+				E16C39FB2B8A2F92007B9E07 /* RegistrationRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E16C39C02B80D121007B9E07 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E16C398D2B78F0EA007B9E07 /* MenuPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E16C39C12B80D124007B9E07 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E16C39792B78F06B007B9E07 /* NearestShopsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E16C39C22B80D128007B9E07 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E16C39832B78F0A8007B9E07 /* PaymentPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E16C39C32B80D12C007B9E07 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E16C394A2B73CFBB007B9E07 /* RegistrationPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E16C39C42B80D139007B9E07 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E16C398F2B78F0F5007B9E07 /* MenuInteractor.swift */,
+				E16C3A092B8A318B007B9E07 /* MenuInteractorInput.swift */,
+				E16C3A0B2B8A319B007B9E07 /* MenuInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E16C39C52B80D13D007B9E07 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E16C397B2B78F077007B9E07 /* NearestShopsInteractor.swift */,
+				E16C3A172B8A348F007B9E07 /* NearestShopsInteractorInput.swift */,
+				E16C3A192B8A349C007B9E07 /* NearestShopsInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E16C39C62B80D141007B9E07 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E16C39852B78F0B2007B9E07 /* PaymentInteractor.swift */,
+				E16C3A212B8A3531007B9E07 /* PaymentInteractorInput.swift */,
+				E16C3A232B8A353F007B9E07 /* PaymentInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E16C39C72B80D148007B9E07 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E16C394E2B73CFD1007B9E07 /* RegistrationInteractor.swift */,
+				E16C39F72B8A2F4C007B9E07 /* RegistrationInteractorInput.swift */,
+				E16C39F92B8A2F5C007B9E07 /* RegistrationInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E16C39C82B80D152007B9E07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E16C398B2B78F0E0007B9E07 /* MenuViewController.swift */,
+				E16C3A0D2B8A31B0007B9E07 /* MenuViewInput.swift */,
+				E16C3A0F2B8A31CA007B9E07 /* MenuViewOutput.swift */,
+				E16C3A352B8B7A10007B9E07 /* MockMenuViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E16C39C92B80D156007B9E07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E16C39772B78F060007B9E07 /* NearestShopsViewController.swift */,
+				E16C3A132B8A3440007B9E07 /* NearestShopsViewInput.swift */,
+				E16C3A152B8A344F007B9E07 /* NearestShopsViewOutput.swift */,
+				E16C3A2B2B8B76CD007B9E07 /* MockNearestShopsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E16C39CA2B80D15C007B9E07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E16C39812B78F09E007B9E07 /* PaymentViewController.swift */,
+				E16C3A1D2B8A3506007B9E07 /* PaymentViewInput.swift */,
+				E16C3A1F2B8A3519007B9E07 /* PaymentViewOutput.swift */,
+				E16C3A392B8CE982007B9E07 /* MockPaymentViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E16C39CB2B80D160007B9E07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1F075062B73CC0200481512 /* RegistrationViewController.swift */,
+				E16C39F32B8A2EF8007B9E07 /* RegistrationViewInput.swift */,
+				E16C39F52B8A2F2A007B9E07 /* RegistrationViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E16C39D32B8277D7007B9E07 /* CoffeeShopsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E16C3A3B2B8CE9F2007B9E07 /* PaymentModuleTests */,
+				E16C3A302B8B7945007B9E07 /* MenuModuleTests */,
+				E16C3A2F2B8B78E8007B9E07 /* NearestShopsModuleTests */,
+				E16C39D42B8277D7007B9E07 /* CoffeeShopsTests.swift */,
+			);
+			path = CoffeeShopsTests;
+			sourceTree = "<group>";
+		};
+		E16C39E82B8A2DE5007B9E07 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E16C39A32B7BAD02007B9E07 /* OrderItemModel.swift */,
+				E16C39542B73D46B007B9E07 /* LocationModel.swift */,
+				E16C39562B73D4B7007B9E07 /* PointModel.swift */,
+				E16C396D2B767E98007B9E07 /* UserModel.swift */,
+				E16C39582B73EC4B007B9E07 /* CoffeeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E16C3A2F2B8B78E8007B9E07 /* NearestShopsModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E16C3A292B8B730F007B9E07 /* NearestShopsPresenterTests.swift */,
+				E16C3A422B8E53DA007B9E07 /* NearestShopsInteractorTests.swift */,
+			);
+			path = NearestShopsModuleTests;
+			sourceTree = "<group>";
+		};
+		E16C3A302B8B7945007B9E07 /* MenuModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E16C3A332B8B796B007B9E07 /* MenuPresenterTests.swift */,
+			);
+			path = MenuModuleTests;
+			sourceTree = "<group>";
+		};
+		E16C3A3B2B8CE9F2007B9E07 /* PaymentModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E16C3A3E2B8CEA16007B9E07 /* PaymentPresenterTests.swift */,
+			);
+			path = PaymentModuleTests;
+			sourceTree = "<group>";
+		};
+		E1F074F62B73CC0200481512 = {
+			isa = PBXGroup;
+			children = (
+				E1F075012B73CC0200481512 /* CoffeeShops */,
+				E1F075002B73CC0200481512 /* Products */,
+				E16C39D32B8277D7007B9E07 /* CoffeeShopsTests */,
+			);
+			sourceTree = "<group>";
+		};
+		E1F075002B73CC0200481512 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1F074FF2B73CC0200481512 /* CoffeeShops.app */,
+				E16C39D22B8277D7007B9E07 /* CoffeeShopsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1F075012B73CC0200481512 /* CoffeeShops */ = {
+			isa = PBXGroup;
+			children = (
+				E16C39522B73D332007B9E07 /* Resources */,
+				E1F075162B73CD6500481512 /* NetworkService */,
+				E16C39AB2B7E7913007B9E07 /* Source */,
+				E16C39E82B8A2DE5007B9E07 /* Models */,
+				E16C395A2B7508F2007B9E07 /* Views */,
+				E1F075182B73CDC000481512 /* AuthorizationModule */,
+				E1F0751A2B73CE0C00481512 /* MapModule */,
+				E1F0751B2B73CE1E00481512 /* MenuModule */,
+				E1F075192B73CDE900481512 /* NearestShopsModule */,
+				E1F0751C2B73CE3600481512 /* PaymentModule */,
+				E1F075172B73CDAC00481512 /* RegistrationModule */,
+			);
+			path = CoffeeShops;
+			sourceTree = "<group>";
+		};
+		E1F075162B73CD6500481512 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				E16C396B2B76560E007B9E07 /* AuthorizationBody.swift */,
+				E16C39482B73CF99007B9E07 /* NetworkService.swift */,
+				E16C3A252B8A6966007B9E07 /* NetworkServiceProtocol.swift */,
+				E16C3A272B8A6979007B9E07 /* AuthorizationType.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		E1F075172B73CDAC00481512 /* RegistrationModule */ = {
+			isa = PBXGroup;
+			children = (
+				E16C39CB2B80D160007B9E07 /* View */,
+				E16C39C72B80D148007B9E07 /* Interactor */,
+				E16C39C32B80D12C007B9E07 /* Presenter */,
+				E16C39BB2B80D0FB007B9E07 /* Router */,
+				E16C39502B73D15D007B9E07 /* RegistrationModuleBuilder.swift */,
+			);
+			path = RegistrationModule;
+			sourceTree = "<group>";
+		};
+		E1F075182B73CDC000481512 /* AuthorizationModule */ = {
+			isa = PBXGroup;
+			children = (
+				E16C39B22B80CFFB007B9E07 /* View */,
+				E16C39B12B80CFF4007B9E07 /* Interactor */,
+				E16C39B02B80CFE4007B9E07 /* Presenter */,
+				E16C39AE2B80CFCC007B9E07 /* Router */,
+				E16C39612B764E18007B9E07 /* AuthorizationModuleBuilder.swift */,
+			);
+			path = AuthorizationModule;
+			sourceTree = "<group>";
+		};
+		E1F075192B73CDE900481512 /* NearestShopsModule */ = {
+			isa = PBXGroup;
+			children = (
+				E16C39C92B80D156007B9E07 /* View */,
+				E16C39C52B80D13D007B9E07 /* Interactor */,
+				E16C39C12B80D124007B9E07 /* Presenter */,
+				E16C39B92B80D0F2007B9E07 /* Router */,
+				E16C39752B78F054007B9E07 /* NearestShopsModuleBuilder.swift */,
+			);
+			path = NearestShopsModule;
+			sourceTree = "<group>";
+		};
+		E1F0751A2B73CE0C00481512 /* MapModule */ = {
+			isa = PBXGroup;
+			children = (
+				E16C39B72B80D0C2007B9E07 /* View */,
+				E16C39B62B80D0BA007B9E07 /* Interactor */,
+				E16C39B52B80D0B1007B9E07 /* Presenter */,
+				E16C39B32B80D097007B9E07 /* Router */,
+				E16C39932B78F10A007B9E07 /* MapModuleBuilder.swift */,
+			);
+			path = MapModule;
+			sourceTree = "<group>";
+		};
+		E1F0751B2B73CE1E00481512 /* MenuModule */ = {
+			isa = PBXGroup;
+			children = (
+				E16C39C82B80D152007B9E07 /* View */,
+				E16C39C42B80D139007B9E07 /* Interactor */,
+				E16C39C02B80D121007B9E07 /* Presenter */,
+				E16C39B82B80D0EC007B9E07 /* Router */,
+				E16C39892B78F0D1007B9E07 /* MenuModuleBuilder.swift */,
+			);
+			path = MenuModule;
+			sourceTree = "<group>";
+		};
+		E1F0751C2B73CE3600481512 /* PaymentModule */ = {
+			isa = PBXGroup;
+			children = (
+				E16C39CA2B80D15C007B9E07 /* View */,
+				E16C39C62B80D141007B9E07 /* Interactor */,
+				E16C39C22B80D128007B9E07 /* Presenter */,
+				E16C39BA2B80D0F6007B9E07 /* Router */,
+				E16C397F2B78F093007B9E07 /* PaymentModuleBuilder.swift */,
+			);
+			path = PaymentModule;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E16C39D12B8277D7007B9E07 /* CoffeeShopsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16C39D82B8277D7007B9E07 /* Build configuration list for PBXNativeTarget "CoffeeShopsTests" */;
+			buildPhases = (
+				E16C39CE2B8277D7007B9E07 /* Sources */,
+				E16C39CF2B8277D7007B9E07 /* Frameworks */,
+				E16C39D02B8277D7007B9E07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E16C39D72B8277D7007B9E07 /* PBXTargetDependency */,
+			);
+			name = CoffeeShopsTests;
+			productName = CoffeeShopsTests;
+			productReference = E16C39D22B8277D7007B9E07 /* CoffeeShopsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1F074FE2B73CC0200481512 /* CoffeeShops */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1F075132B73CC0400481512 /* Build configuration list for PBXNativeTarget "CoffeeShops" */;
+			buildPhases = (
+				E1F074FB2B73CC0200481512 /* Sources */,
+				E1F074FC2B73CC0200481512 /* Frameworks */,
+				E1F074FD2B73CC0200481512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoffeeShops;
+			packageProductDependencies = (
+				E16C39E12B8A2BA5007B9E07 /* Alamofire */,
+				E16C39E42B8A2CAF007B9E07 /* YandexMapsMobile */,
+				E16C39E62B8A2D06007B9E07 /* SnapKit */,
+			);
+			productName = CoffeeShops;
+			productReference = E1F074FF2B73CC0200481512 /* CoffeeShops.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1F074F72B73CC0200481512 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E16C39D12B8277D7007B9E07 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = E1F074FE2B73CC0200481512;
+					};
+					E1F074FE2B73CC0200481512 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = E1F074FA2B73CC0200481512 /* Build configuration list for PBXProject "CoffeeShops" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1F074F62B73CC0200481512;
+			packageReferences = (
+				E16C39DF2B8A2B81007B9E07 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				E16C39E02B8A2BA5007B9E07 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				E16C39E32B8A2CAF007B9E07 /* XCRemoteSwiftPackageReference "YandexMapsMobile" */,
+			);
+			productRefGroup = E1F075002B73CC0200481512 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1F074FE2B73CC0200481512 /* CoffeeShops */,
+				E16C39D12B8277D7007B9E07 /* CoffeeShopsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E16C39D02B8277D7007B9E07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1F074FD2B73CC0200481512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F0750C2B73CC0400481512 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E16C39CE2B8277D7007B9E07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16C39D52B8277D7007B9E07 /* CoffeeShopsTests.swift in Sources */,
+				E16C3A342B8B796B007B9E07 /* MenuPresenterTests.swift in Sources */,
+				E16C3A2A2B8B730F007B9E07 /* NearestShopsPresenterTests.swift in Sources */,
+				E16C3A3F2B8CEA16007B9E07 /* PaymentPresenterTests.swift in Sources */,
+				E16C3A432B8E53DA007B9E07 /* NearestShopsInteractorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1F074FB2B73CC0200481512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16C39AA2B7CF742007B9E07 /* UIViewController+Extension.swift in Sources */,
+				E16C396C2B76560E007B9E07 /* AuthorizationBody.swift in Sources */,
+				E16C396A2B764E98007B9E07 /* AuthorizationViewController.swift in Sources */,
+				E16C39982B78F125007B9E07 /* MapPresenter.swift in Sources */,
+				E16C3A0E2B8A31B0007B9E07 /* MenuViewInput.swift in Sources */,
+				E16C3A082B8A3173007B9E07 /* MenuRouterInput.swift in Sources */,
+				E16C39602B763F2D007B9E07 /* CustomButton.swift in Sources */,
+				E16C39842B78F0A8007B9E07 /* PaymentPresenter.swift in Sources */,
+				E16C3A122B8A3421007B9E07 /* NearestShopsRouterInput.swift in Sources */,
+				E16C3A242B8A353F007B9E07 /* PaymentInteractorOutput.swift in Sources */,
+				E16C39FC2B8A2F92007B9E07 /* RegistrationRouterInput.swift in Sources */,
+				E16C39552B73D46B007B9E07 /* LocationModel.swift in Sources */,
+				E16C3A022B8A2FF4007B9E07 /* MapViewOutput.swift in Sources */,
+				E16C399C2B78F138007B9E07 /* MapRouter.swift in Sources */,
+				E16C39592B73EC4B007B9E07 /* CoffeeModel.swift in Sources */,
+				E16C397A2B78F06B007B9E07 /* NearestShopsPresenter.swift in Sources */,
+				E16C39962B78F11C007B9E07 /* MapViewController.swift in Sources */,
+				E16C39862B78F0B2007B9E07 /* PaymentInteractor.swift in Sources */,
+				E16C39702B767F05007B9E07 /* UserDefaults.swift in Sources */,
+				E16C398E2B78F0EA007B9E07 /* MenuPresenter.swift in Sources */,
+				E16C39822B78F09E007B9E07 /* PaymentViewController.swift in Sources */,
+				E1F075072B73CC0200481512 /* RegistrationViewController.swift in Sources */,
+				E16C39A22B7B7FBE007B9E07 /* CoffeeCell.swift in Sources */,
+				E16C3A2C2B8B76CD007B9E07 /* MockNearestShopsViewController.swift in Sources */,
+				E16C39802B78F093007B9E07 /* PaymentModuleBuilder.swift in Sources */,
+				E16C397C2B78F077007B9E07 /* NearestShopsInteractor.swift in Sources */,
+				E16C39EA2B8A2E2B007B9E07 /* AuthorizationViewInput.swift in Sources */,
+				E16C394B2B73CFBB007B9E07 /* RegistrationPresenter.swift in Sources */,
+				E16C39762B78F054007B9E07 /* NearestShopsModuleBuilder.swift in Sources */,
+				E16C39F82B8A2F4C007B9E07 /* RegistrationInteractorInput.swift in Sources */,
+				E16C397E2B78F082007B9E07 /* NearestShopsRouter.swift in Sources */,
+				E16C39EE2B8A2E87007B9E07 /* AuthorizationInteractorInput.swift in Sources */,
+				E16C39902B78F0F5007B9E07 /* MenuInteractor.swift in Sources */,
+				E16C3A3A2B8CE982007B9E07 /* MockPaymentViewController.swift in Sources */,
+				E16C3A182B8A348F007B9E07 /* NearestShopsInteractorInput.swift in Sources */,
+				E16C39A82B7CE9F6007B9E07 /* ClickableLabel.swift in Sources */,
+				E1F075032B73CC0200481512 /* AppDelegate.swift in Sources */,
+				E16C3A202B8A3519007B9E07 /* PaymentViewOutput.swift in Sources */,
+				E16C3A2E2B8B7759007B9E07 /* MockNearestShopsRouter.swift in Sources */,
+				E16C39F22B8A2ED8007B9E07 /* AuthorizationRouterInput.swift in Sources */,
+				E16C39662B764E78007B9E07 /* AuthorizationRouter.swift in Sources */,
+				E16C39572B73D4B7007B9E07 /* PointModel.swift in Sources */,
+				E16C39A42B7BAD02007B9E07 /* OrderItemModel.swift in Sources */,
+				E16C399A2B78F130007B9E07 /* MapInteractor.swift in Sources */,
+				E16C3A162B8A344F007B9E07 /* NearestShopsViewOutput.swift in Sources */,
+				E16C39A02B7A3F45007B9E07 /* YMapView.swift in Sources */,
+				E16C3A042B8A300A007B9E07 /* MapInteractorOutput.swift in Sources */,
+				E16C39942B78F10A007B9E07 /* MapModuleBuilder.swift in Sources */,
+				E16C3A102B8A31CA007B9E07 /* MenuViewOutput.swift in Sources */,
+				E16C39922B78F0FD007B9E07 /* MenuRouter.swift in Sources */,
+				E16C3A002B8A2FE3007B9E07 /* MapViewInput.swift in Sources */,
+				E16C3A142B8A3440007B9E07 /* NearestShopsViewInput.swift in Sources */,
+				E16C3A382B8B7A1D007B9E07 /* MockMenuRouter.swift in Sources */,
+				E16C3A222B8A3531007B9E07 /* PaymentInteractorInput.swift in Sources */,
+				E16C3A262B8A6966007B9E07 /* NetworkServiceProtocol.swift in Sources */,
+				E16C3A062B8A3019007B9E07 /* MapInteractorInput.swift in Sources */,
+				E16C3A1A2B8A349C007B9E07 /* NearestShopsInteractorOutput.swift in Sources */,
+				E16C39622B764E18007B9E07 /* AuthorizationModuleBuilder.swift in Sources */,
+				E16C398A2B78F0D1007B9E07 /* MenuModuleBuilder.swift in Sources */,
+				E16C39F02B8A2E9E007B9E07 /* AuthorizationInteractorOutput.swift in Sources */,
+				E16C39782B78F060007B9E07 /* NearestShopsViewController.swift in Sources */,
+				E16C39682B764E8A007B9E07 /* AuthorizationPresenter.swift in Sources */,
+				E16C39F42B8A2EF8007B9E07 /* RegistrationViewInput.swift in Sources */,
+				E16C39642B764E6B007B9E07 /* AuthorizationInteractor.swift in Sources */,
+				E16C39882B78F0BA007B9E07 /* PaymentRouter.swift in Sources */,
+				E16C39F62B8A2F2A007B9E07 /* RegistrationViewOutput.swift in Sources */,
+				E16C39FE2B8A2FD0007B9E07 /* MapRouterInput.swift in Sources */,
+				E16C3A0A2B8A318B007B9E07 /* MenuInteractorInput.swift in Sources */,
+				E16C3A1E2B8A3506007B9E07 /* PaymentViewInput.swift in Sources */,
+				E16C398C2B78F0E0007B9E07 /* MenuViewController.swift in Sources */,
+				E16C394F2B73CFD1007B9E07 /* RegistrationInteractor.swift in Sources */,
+				E16C395C2B750963007B9E07 /* AuthorizationTitleLabel.swift in Sources */,
+				E16C39492B73CF9A007B9E07 /* NetworkService.swift in Sources */,
+				E16C3A282B8A6979007B9E07 /* AuthorizationType.swift in Sources */,
+				E16C39512B73D15D007B9E07 /* RegistrationModuleBuilder.swift in Sources */,
+				E16C394D2B73CFC7007B9E07 /* RegistrationRouter.swift in Sources */,
+				E16C396E2B767E98007B9E07 /* UserModel.swift in Sources */,
+				E16C39FA2B8A2F5C007B9E07 /* RegistrationInteractorOutput.swift in Sources */,
+				E16C395E2B750C52007B9E07 /* InputField.swift in Sources */,
+				E16C3A1C2B8A34E8007B9E07 /* PaymentRouterInput.swift in Sources */,
+				E16C39EC2B8A2E56007B9E07 /* AuthorizationViewOutput.swift in Sources */,
+				E16C39A62B7BC547007B9E07 /* TableViewCell.swift in Sources */,
+				E16C3A0C2B8A319B007B9E07 /* MenuInteractorOutput.swift in Sources */,
+				E16C3A362B8B7A10007B9E07 /* MockMenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E16C39D72B8277D7007B9E07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1F074FE2B73CC0200481512 /* CoffeeShops */;
+			targetProxy = E16C39D62B8277D7007B9E07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E16C39D92B8277D7007B9E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.CoffeeShopsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoffeeShops.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoffeeShops";
+			};
+			name = Debug;
+		};
+		E16C39DA2B8277D7007B9E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.CoffeeShopsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoffeeShops.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoffeeShops";
+			};
+			name = Release;
+		};
+		E1F075112B73CC0400481512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1F075122B73CC0400481512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1F075142B73CC0400481512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6J44QUYR55;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoffeeShops/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.CoffeeShops;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1F075152B73CC0400481512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6J44QUYR55;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoffeeShops/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.CoffeeShops;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E16C39D82B8277D7007B9E07 /* Build configuration list for PBXNativeTarget "CoffeeShopsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16C39D92B8277D7007B9E07 /* Debug */,
+				E16C39DA2B8277D7007B9E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1F074FA2B73CC0200481512 /* Build configuration list for PBXProject "CoffeeShops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1F075112B73CC0400481512 /* Debug */,
+				E1F075122B73CC0400481512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1F075132B73CC0400481512 /* Build configuration list for PBXNativeTarget "CoffeeShops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1F075142B73CC0400481512 /* Debug */,
+				E1F075152B73CC0400481512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E16C39DF2B8A2B81007B9E07 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		E16C39E02B8A2BA5007B9E07 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		E16C39E32B8A2CAF007B9E07 /* XCRemoteSwiftPackageReference "YandexMapsMobile" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/c-villain/YandexMapsMobile";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E16C39E12B8A2BA5007B9E07 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E16C39E02B8A2BA5007B9E07 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		E16C39E42B8A2CAF007B9E07 /* YandexMapsMobile */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E16C39E32B8A2CAF007B9E07 /* XCRemoteSwiftPackageReference "YandexMapsMobile" */;
+			productName = YandexMapsMobile;
+		};
+		E16C39E62B8A2D06007B9E07 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E16C39DF2B8A2B81007B9E07 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E1F074F72B73CC0200481512 /* Project object */;
+}
