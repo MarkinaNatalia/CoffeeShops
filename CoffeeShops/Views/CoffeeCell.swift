@@ -93,15 +93,10 @@ final class CoffeeCell: UICollectionViewCell {
         imageCoffee.image = nil
     }
     
-    func updateCoffeeModel(_ coffee: CoffeeModel) {
+    func updateCoffeeModel(_ coffee: CoffeeModel) async {
         nameCoffee.text = coffee.name
         priceCoffee.text = "\(coffee.price) руб"
-    }
-    
-    func updateImage(_ image: UIImage) {
-        DispatchQueue.main.async {
-            self.imageCoffee.image = image
-        }
+        await imageCoffee.loadImage(imageUrl: coffee.imageURL)
     }
     
     private func setupSettings() {

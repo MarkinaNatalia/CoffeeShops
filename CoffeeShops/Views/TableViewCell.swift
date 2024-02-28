@@ -96,7 +96,7 @@ final class TableViewCell : UITableViewCell {
     }
     
     func addCountLabel(count: Int) {
-        self.descriptionLabel.font = .systemFont(ofSize: 16, weight: .medium)
+        descriptionLabel.font = .systemFont(ofSize: 16, weight: .medium)
         self.count = count
 
         contentView.addSubview(stackView)

@@ -17,17 +17,6 @@ final class MenuPresenter {
         self.router = router
         self.interactor = interactor
     }
-    
-    func loadImage(imageUrl: String, closure: @escaping (UIImage) -> Void) {
-        DispatchQueue.global().async {
-            guard let url = URL(string: imageUrl),
-                  let data = try? Data(contentsOf: url),
-                  let image = UIImage(data: data) else { return }
-            DispatchQueue.main.async {
-                closure(image)
-            }
-        }
-    }
 }
 
 extension MenuPresenter: MenuViewOutput {

@@ -74,8 +74,9 @@ final class NearestShopsViewController: UIViewController {
         locationManager.requestWhenInUseAuthorization()
         locationManager.delegate = self
         
-        DispatchQueue.global().async {
-            guard CLLocationManager.locationServicesEnabled() else { return }
+        DispatchQueue.global().async { [weak self] in
+            guard CLLocationManager.locationServicesEnabled(),
+                  let self = self else { return }
             self.locationManager.delegate = self
             self.locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
             self.locationManager.startUpdatingLocation()

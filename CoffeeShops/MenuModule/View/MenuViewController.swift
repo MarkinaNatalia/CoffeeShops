@@ -109,10 +109,6 @@ extension MenuViewController: UICollectionViewDataSource {
         if menu.indices.contains(indexPath.row) {
             cell.updateCoffeeModel(menu[indexPath.row])
             cell.tag = menu[indexPath.row].id
-            
-            output?.loadImage(imageUrl: menu[indexPath.row].imageURL) { image in
-                cell.updateImage(image)
-            }
         }
         
         cell.delegateCell = self

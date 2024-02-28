@@ -22,9 +22,10 @@ class NetworkService: NetworkServiceProtocol {
         
         return try await withCheckedThrowingContinuation { continuation in
             request.responseDecodable(of: UserModel.self) { [weak self] response in
+                guard let self = self else { return }
                 switch response.result {
                 case let .success(user):
-                    self?.userDefaults.saveAuthToken(user: user)
+                    self.userDefaults.saveAuthToken(user: user)
                     continuation.resume()
                 case let .failure(error):
                     continuation.resume(throwing: error)

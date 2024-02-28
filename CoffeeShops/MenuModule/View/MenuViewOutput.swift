@@ -10,5 +10,4 @@ import UIKit
 protocol MenuViewOutput: AnyObject {
     func loadData()
     func openPaymentModule(order: [OrderItemModel])
-    func loadImage(imageUrl: String, closure: @escaping (UIImage) -> Void)
 }
